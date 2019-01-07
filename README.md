@@ -1,2 +1,1 @@
-# rentalwebpage
-display rental properties
+working on page to display personal rental properties

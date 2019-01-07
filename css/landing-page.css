@@ -1,0 +1,44 @@
+/*!
+ * Licensed under MIT (not anymore bitch *UPDATE THIS LUL*)
+ */
+
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+#nav-menu {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+#displaypage {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.carousel-item {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.carousel-inner {
+  margin: auto;
+  width: 50%;
+}
+
+#footer {
+  text-align: left;
+}
