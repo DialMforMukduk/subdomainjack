@@ -24,10 +24,28 @@
   </head>
 
   <body>
+  <!-- Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">OKCRealty</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="https://cozy.io/">Pay Rent Online</a>
+          <a class="nav-item nav-link" href="#">Available Properties</a>
+          <a class="nav-item nav-link" href="#">About</a>
+          <a class="nav-item nav-link" href="#">Contact</a>
+        </div>
+      </div>
+    </nav>
+    
 
   <!-- Carousel -->
   <div class ="container-fluid">
-    <div class=row id="property-carousel">
+    <div class=row>
+      <div class ="col" id="property-carousel">
       <div class="col">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
@@ -60,8 +78,10 @@
   </div>
 
   <div class="container-fluid">
-    <div class="row" id="footer">
-      <p>Jared Carpenter © 2019</p>
+    <div class="row bg-dark" id="footer">
+      <div class="col-12 justify-content-end d-flex">
+        <p>Jared Carpenter © 2019</p>
+      </div>
     </div>
   </div>
 
@@ -71,7 +91,7 @@
 
     <!-- Carousel JavaScript-->
     <script>$('.carousel').carousel({
-      interval: 200
+      interval: 2000
     })
     
     </script>

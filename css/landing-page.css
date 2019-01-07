@@ -34,7 +34,7 @@ h6 {
   border-width: 2px;
   background-image: url("../img/okc.jpeg");
   background-color: #cccccc;
-  height: 500px;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -52,5 +52,5 @@ h6 {
 }
 
 #footer {
-  text-align: right;
+  color: white;
 }
